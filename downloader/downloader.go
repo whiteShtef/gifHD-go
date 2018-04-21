@@ -1,3 +1,6 @@
+// Package downloader opens a simple interface for downloading youtube videos.
+// It uses the
+// https://github.com/kkdai/youtube package to get the job done.
 package downloader
 
 import (
@@ -7,6 +10,7 @@ import (
 	"path/filepath"
 )
 
+// Downloads a video from the specified URL. Saves it as workspacedir/video.mp4 .
 func Download(workspacedir string, url string) {
 
 	file, _ := os.Create(path.Join(workspacedir, "video.mp4"))

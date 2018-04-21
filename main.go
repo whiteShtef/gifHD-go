@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	//downloader.Download("", "https://www.youtube.com/watch?v=yzgBvkvIHGw")
-	renderer.GenPalette("", 17, 10)
-	renderer.GenGif("", 17, 10)
+	downloader.Download("", "https://www.youtube.com/watch?v=EUHcNeg_e9g")
+	renderer.GenPalette("", 0, 10)
+	renderer.GenGif("", 0, 10)
 }
